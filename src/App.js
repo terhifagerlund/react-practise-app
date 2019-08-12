@@ -1,10 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Image from './backgroundImage.png';
+import background_image from './background_image.png';
 import styled from 'styled-components';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Bottomimage from './curvyBackground.png';
+import curvy_background from './curvy_background.png';
 import IconAndText from './IconAndText';
 import icon_umbrella from './icon_umbrella.svg';
 import icon_wheel from './icon_wheel.svg';
@@ -17,7 +17,7 @@ const Container = styled.div`
 `;
 
 const CenterImage = styled.div`
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${Image});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${background_image});
   background-size: auto;
   background-position: center -165px;
   height: 500px;
@@ -30,7 +30,7 @@ const CenterImageText = styled.div`
 `;
   
 const BottomBackground = styled.div`
-  background-image: url(${Bottomimage});
+  background-image: url(${curvy_background});
   background-size: cover;
   height:500px;
   background-position: center;
