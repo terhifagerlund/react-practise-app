@@ -3,8 +3,8 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
 
-const DeckChairIcon = styled.div`
-  background-image: url(${props => props.terhinImage});
+const IconBackgroundImage = styled.div`
+  background-image: url(${props => props.IconImage});
   background-repeat: no-repeat;  
   background-position: center;
   margin-top: 72px;
@@ -27,7 +27,7 @@ export default function IconDeckChair(props) {
     return (
         <Grid container direction="column">
             <Grid item>
-                <DeckChairIcon terhinImage={props.backgroundImage} />
+                <IconBackgroundImage IconImage={props.backgroundImage} />
                 <IconHeaderText>{props.title}</IconHeaderText>
                 <IconText>{props.body}</IconText>
             </Grid> 

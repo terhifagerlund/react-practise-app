@@ -7,7 +7,6 @@ import { Button } from '@material-ui/core';
 
 const AppBarStyle = styled.div`
   background-color: #1A201D;
-  font-family: 'Roboto Condensed';
   `;
 
 const TextStyle = styled.div`
@@ -20,12 +19,10 @@ const TextStyle = styled.div`
 `;
 
 const SignInButton = styled.div`
-  font-family: 'Roboto Condensed';
   color: #F3F1EA;
 `;
 
 const SignUpButton = styled.div`
-  font-family: 'Roboto Condensed';
   color: #F80B64;
 `;
 

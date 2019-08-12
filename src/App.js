@@ -5,10 +5,10 @@ import styled from 'styled-components';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Bottomimage from './curvyBackground.png';
-import IconDeckChair from './IconDeckChair';
-import IconUmbrella from './deckChairUmbrella.svg';
-import IconWheel from './wheel.svg';
-import IconWallet from './wallet.svg';
+import IconAndText from './IconAndText';
+import icon_umbrella from './icon_umbrella.svg';
+import icon_wheel from './icon_wheel.svg';
+import icon_wallet from './icon_wallet.svg';
 import CustomAppBar from './CustomAppBar';
 
 
@@ -26,7 +26,6 @@ const CenterImage = styled.div`
 `;
 
 const CenterImageText = styled.div`
-  font-family: "Roboto Condensed";
   color: white;
 `;
   
@@ -58,14 +57,14 @@ export default function CenteredGrid() {
         </Grid> 
         <Grid container component={BottomBackground}>
           <Grid item xs={4}>
-            <IconDeckChair backgroundImage={IconUmbrella} title="THE BEST LUXURY HOTELS" body="From the latest trendy boutique hotel to the iconic palace with XXL pool, go for a mini-vacation just a few
-          subway stops away from your home."></IconDeckChair></Grid>
+            <IconAndText backgroundImage={icon_umbrella} title="THE BEST LUXURY HOTELS" body="From the latest trendy boutique hotel to the iconic palace with XXL pool, go for a mini-vacation just a few
+          subway stops away from your home."></IconAndText></Grid>
           <Grid item xs={4}>
-            <IconDeckChair backgroundImage={IconWheel} title="NEW EXPERIENCES" body="Privatize a pool, take a Japanese bath or wake up in 900m2 of garden... your
-          Sundays will not be alike."></IconDeckChair></Grid>
+            <IconAndText backgroundImage={icon_wheel} title="NEW EXPERIENCES" body="Privatize a pool, take a Japanese bath or wake up in 900m2 of garden... your
+          Sundays will not be alike."></IconAndText></Grid>
           <Grid item xs={4}>
-            <IconDeckChair backgroundImage={IconWallet} title="EXCLUSIVE RATES" body="By registering, you will access specially negotiated rates that
-          you will not find anywhere else."></IconDeckChair></Grid>
+            <IconAndText backgroundImage={icon_wallet} title="EXCLUSIVE RATES" body="By registering, you will access specially negotiated rates that
+          you will not find anywhere else."></IconAndText></Grid>
         </Grid>
       </Grid>   
     </Container>
