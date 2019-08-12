@@ -58,13 +58,16 @@ export default function CenteredGrid() {
         <Grid container component={BottomBackground}>
           <Grid item xs={4}>
             <IconAndText backgroundImage={icon_umbrella} title="THE BEST LUXURY HOTELS" body="From the latest trendy boutique hotel to the iconic palace with XXL pool, go for a mini-vacation just a few
-          subway stops away from your home."></IconAndText></Grid>
+          subway stops away from your home."></IconAndText>
+          </Grid>
           <Grid item xs={4}>
             <IconAndText backgroundImage={icon_wheel} title="NEW EXPERIENCES" body="Privatize a pool, take a Japanese bath or wake up in 900m2 of garden... your
-          Sundays will not be alike."></IconAndText></Grid>
+          Sundays will not be alike."></IconAndText>
+          </Grid>
           <Grid item xs={4}>
             <IconAndText backgroundImage={icon_wallet} title="EXCLUSIVE RATES" body="By registering, you will access specially negotiated rates that
-          you will not find anywhere else."></IconAndText></Grid>
+          you will not find anywhere else."></IconAndText>
+          </Grid>
         </Grid>
       </Grid>   
     </Container>
